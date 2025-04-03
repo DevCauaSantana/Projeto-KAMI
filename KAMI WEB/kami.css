@@ -1,0 +1,78 @@
+/*Página login.php*/
+
+.botao-login {
+    background-color: #926952;
+    width: 35%;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-left: 33%;
+}
+
+.botao-login:hover{
+    color: antiquewhite !important;
+    background-color: #481F01;
+}
+
+.input-login {
+    background-color: gray;
+    border: solid 0.5px #926952;
+}
+
+.label-login {
+    color: #926952;
+}
+
+.h2-login{
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h1-login{
+    font-size: 10vw;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3vw;
+}
+
+.pai-login {
+    display: flex;
+}
+
+.esquerda-login {
+    width: 50vw;
+    height: 100vh;
+    background-color: #433128;
+    color: #AD826A;
+    text-align: center;
+}
+
+.direita-login {
+    width: 50vw;
+}
+
+.div-login {
+    height: 25vh;
+    background-color: #926952;
+    font-size: xx-large;
+    padding: 5vh;
+}
+
+.formulario-login {
+    height: 75vh;
+    background-color: #08100F;
+    padding: 7%;
+}
+
+/*Página tipo-acesso.php*/
+
+.borda-inferior-tipo-acesso{
+    width: 10vh;
+    height: 100vw;
+    background-color: #926952;
+}
+
+/*Pagina cabecalho.php*/
+
+/*Pagina formulario-salao*/
+
+/*Página listagem-salao*/
