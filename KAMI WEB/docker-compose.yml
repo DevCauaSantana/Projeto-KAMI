@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  php:
+    container_name: php
+    build: .
+    ports:
+      - "9000:80"
+    volumes:
+      - ./:/var/www/html
+
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postdba
+      POSTGRES_DB: projeto_kami
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
